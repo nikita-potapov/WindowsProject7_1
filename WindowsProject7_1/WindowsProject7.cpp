@@ -15,13 +15,15 @@
 #define MIN_LAB 0
 #define MAX_LAB 6
 
-int numPicture = 0;
-int numLab = 0;
+int numPicture = 8;
+int numLab = 6;
 int sizeImage = 50;
 int random_colors_state = 0;
-extern int redColor, hit, missed, targetCx, targetCy, targetSize, scopeX, scopeY, sizeImage;
 
-const int pictures_count[] = { 1, 1, 3, 5, 14, 4, 8 };
+extern int redColor, hit, missed, targetCx, targetCy,
+    targetSize, scopeX, scopeY, sizeImage;
+
+const int pictures_count[] = { 1, 1, 3, 5, 14, 4, 9 };
 
 void drawMyCode(HDC hdc)
 {
